@@ -1,0 +1,274 @@
+{
+    "sourceFile": "style/nav.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 64,
+            "patches": [
+                {
+                    "date": 1756784212112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756784220506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-*\n\\ No newline at end of file\n+* {\r\n+    margin: ;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784227982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n * {\r\n-    margin: ;\r\n+    margin: 0;\r\n+    padding: 0;\r\n+    bor\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784234323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n * {\r\n     margin: 0;\r\n     padding: 0;\r\n-    bor\r\n+    box-sizing: ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784242123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n * {\r\n     margin: 0;\r\n     padding: 0;\r\n-    box-sizing: ;\r\n-}\n\\ No newline at end of file\n+    box-sizing: border-box;\r\n+}\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1756784291990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n     padding: 0;\r\n     box-sizing: border-box;\r\n }\r\n \r\n-\r\n+.header {\r\n+    \r\n+}\r\n"
+                },
+                {
+                    "date": 1756784327865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n     box-sizing: border-box;\r\n }\r\n \r\n .header {\r\n-    \r\n+    background-color: 825E5E;\r\n }\r\n"
+                },
+                {
+                    "date": 1756784374326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,10 @@\n     box-sizing: border-box;\r\n }\r\n \r\n .header {\r\n-    background-color: 825E5E;\r\n+    background-color: #825E5E;\r\n }\r\n+\r\n+a {\r\n+    text\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784391299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,7 @@\n     background-color: #825E5E;\r\n }\r\n \r\n a {\r\n-    text\r\n+    text-decoration: none;\r\n+    color: white;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784510301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n * {\r\n     margin: 0;\r\n     padding: 0;\r\n     box-sizing: border-box;\r\n+    fo\r\n }\r\n \r\n .header {\r\n     background-color: #825E5E;\r\n"
+                },
+                {
+                    "date": 1756784528875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,42 @@\n * {\r\n     margin: 0;\r\n     padding: 0;\r\n     box-sizing: border-box;\r\n-    fo\r\n }\r\n \r\n+@font-face {\r\n+    font-family: 'Inter SemiBold';\r\n+    src: url(../font/Inter/static/Inter_18pt-SemiBold.ttf);\r\n+}\r\n+\r\n+@font-face {\r\n+    font-family: 'Inter Black';\r\n+    src: url(../font/Inter/static/Inter_18pt-Black.ttf);\r\n+}\r\n+\r\n+@font-face {\r\n+    font-family: 'Inter Regular';\r\n+    src: url(../font/Inter/static/Inter_28pt-Regular.ttf);\r\n+}\r\n+\r\n+\r\n+@font-face {\r\n+    font-family: 'Inter Medium';\r\n+    src: url(../font/Inter/static/Inter_28pt-Medium.ttf);\r\n+}\r\n+\r\n+@font-face {\r\n+    font-family: 'Encode Sans';\r\n+    src: url(../font/Encode_Sans/EncodeSans-VariableFont_wdth\\,wght.ttf);\r\n+}\r\n+\r\n+@font-face {\r\n+    font-family: 'Inter Light';\r\n+    src: url(../font/Inter/static/Inter_18pt-Light.ttf);\r\n+}\r\n+\r\n+\r\n .header {\r\n     background-color: #825E5E;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756784536235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,5 +42,6 @@\n \r\n a {\r\n     text-decoration: none;\r\n     color: white;\r\n+    font\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784546296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,6 +42,6 @@\n \r\n a {\r\n     text-decoration: none;\r\n     color: white;\r\n-    font\r\n+    font-family: 'Inter SemiBold';\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784556151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,7 +41,7 @@\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n-    color: white;\r\n+    color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784561551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,5 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n+    font-size: 2;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784571144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: 2;\r\n+    font-size: 30px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784626476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: 30px;\r\n+    font-size: 1rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784644023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: 1rem;\r\n+    font-size: clamp;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784653654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: clamp;\r\n+    font-size: ();\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784663808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: ();\r\n+    font-size: 2rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784670038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.747);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: 2rem;\r\n+    font-size: 1.7rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784680493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,8 @@\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n-    color: rgba(255, 255, 255, 0.747);\r\n+    color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n     font-size: 1.7rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784690139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n }\r\n \r\n \r\n .header {\r\n+    display: flex;\r\n     background-color: #825E5E;\r\n }\r\n \r\n a {\r\n"
+                },
+                {
+                    "date": 1756784700044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,5 +45,9 @@\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n     font-size: 1.7rem;\r\n+}\r\n+\r\n+ul {\r\n+    list-style: none;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784707500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,7 @@\n     font-size: 1.7rem;\r\n }\r\n \r\n ul {\r\n+    display: flex;\r\n     list-style: none;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784717022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,6 @@\n \r\n ul {\r\n     display: flex;\r\n     list-style: none;\r\n+    align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784724354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n \r\n .header {\r\n     display: flex;\r\n     background-color: #825E5E;\r\n+    align-items: center;\r\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1756784740041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n .header {\r\n     display: flex;\r\n     background-color: #825E5E;\r\n     align-items: center;\r\n+    justify-content: space-around;\r\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1756784748240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n .header {\r\n     display: flex;\r\n     background-color: #825E5E;\r\n     align-items: center;\r\n-    justify-content: space-around;\r\n+    justify-content: space-between;\r\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1756784825745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,5 +53,6 @@\n ul {\r\n     display: flex;\r\n     list-style: none;\r\n     align-items: center;\r\n+    ga\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784847609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,6 +53,10 @@\n ul {\r\n     display: flex;\r\n     list-style: none;\r\n     align-items: center;\r\n-    ga\r\n+    gap: 1rem;\r\n+}\r\n+\r\n+li {\r\n+    pad\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784861448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,10 +53,9 @@\n ul {\r\n     display: flex;\r\n     list-style: none;\r\n     align-items: center;\r\n-    gap: 1rem;\r\n }\r\n \r\n li {\r\n-    pad\r\n+    padding: 1rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784877218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,10 @@\n     align-items: center;\r\n     justify-content: space-between;\r\n }\r\n \r\n+\r\n+\r\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n"
+                },
+                {
+                    "date": 1756784882302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,10 +42,12 @@\n     align-items: center;\r\n     justify-content: space-between;\r\n }\r\n \r\n+.header .logo {\r\n+    \r\n+}\r\n \r\n-\r\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n"
+                },
+                {
+                    "date": 1756784893420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     justify-content: space-between;\r\n }\r\n \r\n .header .logo {\r\n-    \r\n+    padding: ;\r\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1756784899594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     justify-content: space-between;\r\n }\r\n \r\n .header .logo {\r\n-    padding: ;\r\n+    padding: 0 1rem;\r\n }\r\n \r\n a {\r\n     text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1756784913315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,6 +60,6 @@\n     align-items: center;\r\n }\r\n \r\n li {\r\n-    padding: 1rem;\r\n+    padding: 0.5rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784976825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n a {\r\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n-    font-size: 1.7rem;\r\n+    font-size: 1.6rem;\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n@@ -60,6 +60,6 @@\n     align-items: center;\r\n }\r\n \r\n li {\r\n-    padding: 0.5rem;\r\n+    padding: 0.8rem;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756784983637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,9 @@\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n     font-size: 1.6rem;\r\n+    fon\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756784991852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n     font-size: 1.6rem;\r\n-    fon\r\n+    font-weight: 200;\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756784997123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     text-decoration: none;\r\n     color: rgba(255, 255, 255, 0.856);\r\n     font-family: 'Inter SemiBold';\r\n     font-size: 1.6rem;\r\n-    font-weight: 200;\r\n+    font-weight: 100;\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785025544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,10 @@\n     font-size: 1.6rem;\r\n     font-weight: 100;\r\n }\r\n \r\n+a\r\n+\r\n ul {\r\n     display: flex;\r\n     list-style: none;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1756785039628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,11 @@\n     font-size: 1.6rem;\r\n     font-weight: 100;\r\n }\r\n \r\n-a\r\n+.header a:hover {\r\n+    \r\n+}\r\n \r\n ul {\r\n     display: flex;\r\n     list-style: none;\r\n"
+                },
+                {
+                    "date": 1756785045668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    \r\n+    color: lired;\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785054398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: lired;\r\n+    color: red;\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785071734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: red;\r\n+    color: rgba(255, 0, 0, 0.438);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785079544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: rgba(255, 0, 0, 0.438);\r\n+    color: rgba(219, 106, 106, 0.438);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785093893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: rgba(219, 106, 106, 0.438);\r\n+    color: rgba(255, 17, 17, 0.788);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785104871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: rgba(255, 17, 17, 0.788);\r\n+    color: rgba(214, 198, 198, 0.788);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785112628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: rgba(214, 198, 198, 0.788);\r\n+    color: rgba(165, 52, 52, 0.788);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785124296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,10 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a:hover {\r\n-    color: rgba(165, 52, 52, 0.788);\r\n+    color: rgba(255, 34, 34, 0.788);\r\n+    tra\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785132208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n }\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n-    tra\r\n+    transform: translateY(5px);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785138158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,10 @@\n     font-size: 1.6rem;\r\n     font-weight: 100;\r\n }\r\n \r\n+\r\n+\r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n     transform: translateY(5px);\r\n }\r\n"
+                },
+                {
+                    "date": 1756785144725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,10 +54,10 @@\n     font-size: 1.6rem;\r\n     font-weight: 100;\r\n }\r\n \r\n+.header a\r\n \r\n-\r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n     transform: translateY(5px);\r\n }\r\n"
+                },
+                {
+                    "date": 1756785150094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,11 @@\n     font-size: 1.6rem;\r\n     font-weight: 100;\r\n }\r\n \r\n-.header a\r\n+.header a {\r\n+    tra\r\n+}\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n     transform: translateY(5px);\r\n"
+                },
+                {
+                    "date": 1756785158040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a {\r\n-    tra\r\n+    transition: all 0.;\r\n }\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n"
+                },
+                {
+                    "date": 1756785174180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,14 +55,14 @@\n     font-weight: 100;\r\n }\r\n \r\n .header a {\r\n-    transition: all 0.;\r\n+    transition: all 0.5s ease-in-out;\r\n }\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n-    transform: translateY(5px);\r\n+    transform: translateY(10px);\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785232160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,10 @@\n }\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n-    transform: translateY(10px);\r\n+    transform: translateY(-10px);\r\n+    pos\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785250225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,8 @@\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n     transform: translateY(-10px);\r\n-    pos\r\n }\r\n \r\n ul {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1756785262893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,4 @@\n     display: flex;\r\n     list-style: none;\r\n     align-items: center;\r\n }\r\n-\r\n-li {\r\n-    padding: 0.8rem;\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756785270517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n }\r\n \r\n .header a {\r\n     transition: all 0.5s ease-in-out;\r\n+    height: 1rem;\r\n }\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n"
+                },
+                {
+                    "date": 1756785278062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,4 +69,5 @@\n     display: flex;\r\n     list-style: none;\r\n     align-items: center;\r\n }\r\n+\r\n"
+                },
+                {
+                    "date": 1756785286124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,4 +70,8 @@\n     list-style: none;\r\n     align-items: center;\r\n }\r\n \r\n+.header li {\r\n+\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756785291388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,6 +71,6 @@\n     align-items: center;\r\n }\r\n \r\n .header li {\r\n-    padding: ;\r\n+    padding: 1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756785305673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n }\r\n \r\n .header a {\r\n     transition: all 0.5s ease-in-out;\r\n-    height: 1rem;\r\n+    height: 3rem;\r\n }\r\n \r\n .header a:hover {\r\n     color: rgba(255, 34, 34, 0.788);\r\n"
+                }
+            ],
+            "date": 1756784212112,
+            "name": "Commit-0",
+            "content": "*"
+        }
+    ]
+}

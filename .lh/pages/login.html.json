@@ -1,0 +1,102 @@
+{
+    "sourceFile": "pages/login.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1756806918421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756806924575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <!-- Header -->\r\n     <header class=\"header\">\r\n         <div class=\"header-left\">\r\n             <div class=\"logo\">\r\n-                <img src=\"\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n+                <img src=\"../\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n             </div>\r\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n"
+                },
+                {
+                    "date": 1756806932490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <!-- Header -->\r\n     <header class=\"header\">\r\n         <div class=\"header-left\">\r\n             <div class=\"logo\">\r\n-                <img src=\"../\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n+                <img src=\"../img/\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n             </div>\r\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n"
+                },
+                {
+                    "date": 1756806942066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <!-- Header -->\r\n     <header class=\"header\">\r\n         <div class=\"header-left\">\r\n             <div class=\"logo\">\r\n-                <img src=\"../img/\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n+                <img src=\"../img/logo-white.svg\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n             </div>\r\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n"
+                },
+                {
+                    "date": 1756825812200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n                         </label>\r\n                         <a href=\"forgot-password.html\" class=\"forgot-link\">Forgot Password?</a>\r\n                     </div>\r\n                     \r\n-                    <button type=\"submit\" class=\"login-btn\">Create Account</button>\r\n+                    <button type=\"submit\" class=\"login-btn\">Sign In</button>\r\n                 </form>\r\n                 \r\n                 <div class=\"signup-link\">\r\n                     <p>Don't have an account? <a href=\"signup.html\">Sign Up</a></p>\r\n"
+                },
+                {
+                    "date": 1756967518187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n             <a href=\"#\" class=\"nav-link\">About</a>\r\n+            <a href=\"\"></a>\r\n         </nav>\r\n     </header>\r\n \r\n     <!-- Main Content -->\r\n"
+                },
+                {
+                    "date": 1756967530597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n             <a href=\"#\" class=\"nav-link\">About</a>\r\n-            <a href=\"\"></a>\r\n+            <a href=\"\">Browse books</a>\r\n         </nav>\r\n     </header>\r\n \r\n     <!-- Main Content -->\r\n"
+                },
+                {
+                    "date": 1756967536221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n             <a href=\"#\" class=\"nav-link\">About</a>\r\n-            <a href=\"\">Browse books</a>\r\n+            <a href=\"../browse-book.html\">Browse books</a>\r\n         </nav>\r\n     </header>\r\n \r\n     <!-- Main Content -->\r\n"
+                },
+                {
+                    "date": 1756967628196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n             <a href=\"#\" class=\"nav-link\">About</a>\r\n-            <a href=\"../browse-book.html\">Browse books</a>\r\n+            <a href=\"../browse-book.html\" class=\"nav-link\">Browse books</a>\r\n         </nav>\r\n     </header>\r\n \r\n     <!-- Main Content -->\r\n"
+                },
+                {
+                    "date": 1757047416773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,7 +60,8 @@\n         </div>\r\n     </main>\r\n \r\n     <script src=\"../js/login.js\"></script>\r\n+    <script></script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757047426012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,8 +60,10 @@\n         </div>\r\n     </main>\r\n \r\n     <script src=\"../js/login.js\"></script>\r\n-    <script></script>\r\n+    <script>\r\n+        user = localStorage\r\n+    </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757047431580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n     </main>\r\n \r\n     <script src=\"../js/login.js\"></script>\r\n     <script>\r\n-        user = localStorage\r\n+        user = localStorage.getItem('users')\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757047440628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n \r\n     <script src=\"../js/login.js\"></script>\r\n     <script>\r\n         user = localStorage.getItem('users')\r\n+        console.log()\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757047553096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,10 @@\n \r\n     <script src=\"../js/login.js\"></script>\r\n     <script>\r\n         user = localStorage.getItem('users')\r\n-        console.log()\r\n+        console.log(user)\r\n+        localStorage.removeItem('users')\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757047560887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,8 @@\n     <script src=\"../js/login.js\"></script>\r\n     <script>\r\n         user = localStorage.getItem('users')\r\n         console.log(user)\r\n-        localStorage.removeItem('users')\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757048395603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n                             <input type=\"checkbox\" id=\"remember\" name=\"remember\">\r\n                             <span class=\"checkmark\"></span>\r\n                             Remember Me\r\n                         </label>\r\n-                        <a href=\"forgot-password.html\" class=\"forgot-link\">Forgot Password?</a>\r\n+                        <a href=\"forgot-password.html\" id=\"forgotLink\" class=\"forgot-link\">Forgot Password?</a>\r\n                     </div>\r\n                     \r\n                     <button type=\"submit\" class=\"login-btn\">Sign In</button>\r\n                 </form>\r\n"
+                },
+                {
+                    "date": 1757434231493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n             </div>\r\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n-            <a href=\"#\" class=\"nav-link\">About</a>\r\n+            <a href=\"\" class=\"nav-link\">About</a>\r\n             <a href=\"../browse-book.html\" class=\"nav-link\">Browse books</a>\r\n         </nav>\r\n     </header>\r\n \r\n"
+                },
+                {
+                    "date": 1757436057075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n             </div>\r\n         </div>\r\n         <nav class=\"nav\">\r\n             <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n-            <a href=\"\" class=\"nav-link\">About</a>\r\n+            <a href=\"About/about.html\" class=\"nav-link\">About</a>\r\n             <a href=\"../browse-book.html\" class=\"nav-link\">Browse books</a>\r\n         </nav>\r\n     </header>\r\n \r\n@@ -52,8 +52,13 @@\n                     \r\n                     <button type=\"submit\" class=\"login-btn\">Sign In</button>\r\n                 </form>\r\n                 \r\n+        <div class=\"loading-Overlay\" id=\"loadingOverlay\">\r\n+            <div class=\"spinner\"></div>\r\n+        </div>\r\n+\r\n+                \r\n                 <div class=\"signup-link\">\r\n                     <p>Don't have an account? <a href=\"signup.html\">Sign Up</a></p>\r\n                 </div>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1757436163114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,17 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n+\r\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>Sign In - Herbert Schildt</title>\r\n     <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n     <link rel=\"stylesheet\" href=\"../css/login.css\">\r\n+    scr\r\n     <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n </head>\r\n+\r\n <body>\r\n     <!-- Header -->\r\n     <header class=\"header\">\r\n         <div class=\"header-left\">\r\n@@ -28,37 +31,37 @@\n         <div class=\"login-container\">\r\n             <div class=\"login-card\">\r\n                 <h2 class=\"login-title\">Sign In</h2>\r\n                 <p class=\"login-subtitle\">Welcome back! Please sign in to your account.</p>\r\n-                \r\n+\r\n                 <form class=\"login-form\" id=\"loginForm\">\r\n                     <div class=\"form-group\">\r\n                         <label for=\"email\">Email Address</label>\r\n                         <input type=\"email\" id=\"email\" name=\"email\" required>\r\n                     </div>\r\n-                    \r\n+\r\n                     <div class=\"form-group\">\r\n                         <label for=\"password\">Password</label>\r\n                         <input type=\"password\" id=\"password\" name=\"password\" required>\r\n                     </div>\r\n-                    \r\n+\r\n                     <div class=\"form-options\">\r\n                         <label class=\"checkbox-label\">\r\n                             <input type=\"checkbox\" id=\"remember\" name=\"remember\">\r\n                             <span class=\"checkmark\"></span>\r\n                             Remember Me\r\n                         </label>\r\n                         <a href=\"forgot-password.html\" id=\"forgotLink\" class=\"forgot-link\">Forgot Password?</a>\r\n                     </div>\r\n-                    \r\n+\r\n                     <button type=\"submit\" class=\"login-btn\">Sign In</button>\r\n                 </form>\r\n-                \r\n-        <div class=\"loading-Overlay\" id=\"loadingOverlay\">\r\n-            <div class=\"spinner\"></div>\r\n-        </div>\r\n \r\n-                \r\n+                <div class=\"loading-Overlay\" id=\"loadingOverlay\">\r\n+                    <div class=\"spinner\"></div>\r\n+                </div>\r\n+\r\n+\r\n                 <div class=\"signup-link\">\r\n                     <p>Don't have an account? <a href=\"signup.html\">Sign Up</a></p>\r\n                 </div>\r\n             </div>\r\n@@ -70,6 +73,6 @@\n         user = localStorage.getItem('users')\r\n         console.log(user)\r\n     </script>\r\n </body>\r\n-</html>\r\n \r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1757436171298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>Sign In - Herbert Schildt</title>\r\n     <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n     <link rel=\"stylesheet\" href=\"../css/login.css\">\r\n-    scr\r\n+    <script src=\"\"></script>\r\n     <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n </head>\r\n \r\n <body>\r\n"
+                },
+                {
+                    "date": 1757436179899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>Sign In - Herbert Schildt</title>\r\n     <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n     <link rel=\"stylesheet\" href=\"../css/login.css\">\r\n-    <script src=\"\"></script>\r\n+    <script src=\"../../s\"></script>\r\n     <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n </head>\r\n \r\n <body>\r\n"
+                },
+                {
+                    "date": 1757436186344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>Sign In - Herbert Schildt</title>\r\n     <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n     <link rel=\"stylesheet\" href=\"../css/login.css\">\r\n-    <script src=\"../js/\"></script>\r\n+    <script src=\"../js/loader.js\"></script>\r\n     <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n </head>\r\n \r\n <body>\r\n"
+                }
+            ],
+            "date": 1756806918421,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Sign In - Herbert Schildt</title>\r\n    <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n    <link rel=\"stylesheet\" href=\"../css/login.css\">\r\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n    <!-- Header -->\r\n    <header class=\"header\">\r\n        <div class=\"header-left\">\r\n            <div class=\"logo\">\r\n                <img src=\"\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n            </div>\r\n        </div>\r\n        <nav class=\"nav\">\r\n            <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n            <a href=\"#\" class=\"nav-link\">About</a>\r\n        </nav>\r\n    </header>\r\n\r\n    <!-- Main Content -->\r\n    <main class=\"main-content\">\r\n        <div class=\"login-container\">\r\n            <div class=\"login-card\">\r\n                <h2 class=\"login-title\">Sign In</h2>\r\n                <p class=\"login-subtitle\">Welcome back! Please sign in to your account.</p>\r\n                \r\n                <form class=\"login-form\" id=\"loginForm\">\r\n                    <div class=\"form-group\">\r\n                        <label for=\"email\">Email Address</label>\r\n                        <input type=\"email\" id=\"email\" name=\"email\" required>\r\n                    </div>\r\n                    \r\n                    <div class=\"form-group\">\r\n                        <label for=\"password\">Password</label>\r\n                        <input type=\"password\" id=\"password\" name=\"password\" required>\r\n                    </div>\r\n                    \r\n                    <div class=\"form-options\">\r\n                        <label class=\"checkbox-label\">\r\n                            <input type=\"checkbox\" id=\"remember\" name=\"remember\">\r\n                            <span class=\"checkmark\"></span>\r\n                            Remember Me\r\n                        </label>\r\n                        <a href=\"forgot-password.html\" class=\"forgot-link\">Forgot Password?</a>\r\n                    </div>\r\n                    \r\n                    <button type=\"submit\" class=\"login-btn\">Create Account</button>\r\n                </form>\r\n                \r\n                <div class=\"signup-link\">\r\n                    <p>Don't have an account? <a href=\"signup.html\">Sign Up</a></p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </main>\r\n\r\n    <script src=\"../js/login.js\"></script>\r\n</body>\r\n</html>\r\n\r\n"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "sourceFile": "js/signup.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1756825543013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756825738149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,4 +142,6 @@\n             }, 300);\r\n         }, 5000);\r\n     }\r\n });\r\n+\r\n+localStorage.remo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756825747478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,5 +143,4 @@\n         }, 5000);\r\n     }\r\n });\r\n \r\n-localStorage.remo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1757047085213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,9 @@\n         const newUser = {\r\n             fullName: fullName,\r\n             email: email,\r\n             password: password,\r\n+            \r\n             cart: [] // initialize empty cart\r\n         };\r\n         users.push(newUser);\r\n         localStorage.setItem('users', JSON.stringify(users));\r\n"
+                },
+                {
+                    "date": 1757047091148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n         const newUser = {\r\n             fullName: fullName,\r\n             email: email,\r\n             password: password,\r\n-            \r\n+            con\r\n             cart: [] // initialize empty cart\r\n         };\r\n         users.push(newUser);\r\n         localStorage.setItem('users', JSON.stringify(users));\r\n"
+                },
+                {
+                    "date": 1757047096531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n         const newUser = {\r\n             fullName: fullName,\r\n             email: email,\r\n             password: password,\r\n-            con\r\n+            contactNum:\r\n             cart: [] // initialize empty cart\r\n         };\r\n         users.push(newUser);\r\n         localStorage.setItem('users', JSON.stringify(users));\r\n"
+                },
+                {
+                    "date": 1757047102100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n         const newUser = {\r\n             fullName: fullName,\r\n             email: email,\r\n             password: password,\r\n-            contactNum:\r\n+            contactNum: s\r\n             cart: [] // initialize empty cart\r\n         };\r\n         users.push(newUser);\r\n         localStorage.setItem('users', JSON.stringify(users));\r\n"
+                },
+                {
+                    "date": 1757047117900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     const emailInput = document.getElementById('email');\r\n     const passwordInput = document.getElementById('password');\r\n     const confirmPasswordInput = document.getElementById('confirmPassword');\r\n     const agreeCheckbox = document.getElementById('agree');\r\n+    con\r\n \r\n     signupForm.addEventListener('submit', function(e) {\r\n         e.preventDefault();\r\n \r\n@@ -55,9 +56,9 @@\n         const newUser = {\r\n             fullName: fullName,\r\n             email: email,\r\n             password: password,\r\n-            contactNum: s\r\n+            contactNum: \r\n             cart: [] // initialize empty cart\r\n         };\r\n         users.push(newUser);\r\n         localStorage.setItem('users', JSON.stringify(users));\r\n"
+                },
+                {
+                    "date": 1757047124249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     const emailInput = document.getElementById('email');\r\n     const passwordInput = document.getElementById('password');\r\n     const confirmPasswordInput = document.getElementById('confirmPassword');\r\n     const agreeCheckbox = document.getElementById('agree');\r\n-    con\r\n+    const con\r\n \r\n     signupForm.addEventListener('submit', function(e) {\r\n         e.preventDefault();\r\n \r\n"
+                },
+                {
+                    "date": 1757047132335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     const emailInput = document.getElementById('email');\r\n     const passwordInput = document.getElementById('password');\r\n     const confirmPasswordInput = document.getElementById('confirmPassword');\r\n     const agreeCheckbox = document.getElementById('agree');\r\n-    const con\r\n+    const contactNum = doc\r\n \r\n     signupForm.addEventListener('submit', function(e) {\r\n         e.preventDefault();\r\n \r\n"
+                },
+                {
+                    "date": 1757047139587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     const emailInput = document.getElementById('email');\r\n     const passwordInput = document.getElementById('password');\r\n     const confirmPasswordInput = document.getElementById('confirmPassword');\r\n     const agreeCheckbox = document.getElementById('agree');\r\n-    const contactNum = doc\r\n+    const contactNum = document.querySelector\r\n \r\n     signupForm.addEventListener('submit', function(e) {\r\n         e.preventDefault();\r\n \r\n"
+                },
+                {
+                    "date": 1757047264725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     const emailInput = document.getElementById('email');\r\n     const passwordInput = document.getElementById('password');\r\n     const confirmPasswordInput = document.getElementById('confirmPassword');\r\n     const agreeCheckbox = document.getElementById('agree');\r\n-    const contactNum = document.ge\r\n+    const contactNum = document.getElementById\r\n \r\n     signupForm.addEventListener('submit', function(e) {\r\n         e.preventDefault();\r\n \r\n"
+                }
+            ],
+            "date": 1756825543013,
+            "name": "Commit-0",
+            "content": "document.addEventListener('DOMContentLoaded', function() {\r\n    const signupForm = document.getElementById('signupForm');\r\n    const fullNameInput = document.getElementById('fullName');\r\n    const emailInput = document.getElementById('email');\r\n    const passwordInput = document.getElementById('password');\r\n    const confirmPasswordInput = document.getElementById('confirmPassword');\r\n    const agreeCheckbox = document.getElementById('agree');\r\n\r\n    signupForm.addEventListener('submit', function(e) {\r\n        e.preventDefault();\r\n\r\n        const fullName = fullNameInput.value.trim();\r\n        const email = emailInput.value.trim();\r\n        const password = passwordInput.value.trim();\r\n        const confirmPassword = confirmPasswordInput.value.trim();\r\n        const agree = agreeCheckbox.checked;\r\n\r\n        // Validation\r\n        if (!fullName || !email || !password || !confirmPassword) {\r\n            showError('Please fill in all fields');\r\n            return;\r\n        }\r\n\r\n        if (!isValidEmail(email)) {\r\n            showError('Please enter a valid email address');\r\n            return;\r\n        }\r\n\r\n        if (password.length < 6) {\r\n            showError('Password must be at least 6 characters long');\r\n            return;\r\n        }\r\n\r\n        if (password !== confirmPassword) {\r\n            showError('Passwords do not match');\r\n            return;\r\n        }\r\n\r\n        if (!agree) {\r\n            showError('Please agree to the Terms and Conditions');\r\n            return;\r\n        }\r\n\r\n        // Save user to localStorage\r\n        let users = JSON.parse(localStorage.getItem('users')) || [];\r\n\r\n        // Check if email already exists\r\n        const existingUser = users.find(user => user.email === email);\r\n        if (existingUser) {\r\n            showError('This email is already registered');\r\n            return;\r\n        }\r\n\r\n        // Add new user\r\n        const newUser = {\r\n            fullName: fullName,\r\n            email: email,\r\n            password: password,\r\n            cart: [] // initialize empty cart\r\n        };\r\n        users.push(newUser);\r\n        localStorage.setItem('users', JSON.stringify(users));\r\n\r\n        // Success notification\r\n        showSuccess('Account created successfully! Redirecting to login...');\r\n\r\n        // Clear form\r\n        signupForm.reset();\r\n\r\n        // Redirect to login after 2 seconds\r\n        setTimeout(() => {\r\n            window.location.href = 'login.html';\r\n        }, 2000);\r\n    });\r\n\r\n    // Email validation\r\n    function isValidEmail(email) {\r\n        const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\r\n        return emailRegex.test(email);\r\n    }\r\n\r\n    // Show error message\r\n    function showError(message) {\r\n        showNotification(message, 'error');\r\n    }\r\n\r\n    // Show success message\r\n    function showSuccess(message) {\r\n        showNotification(message, 'success');\r\n    }\r\n\r\n    // Notification system\r\n    function showNotification(message, type = 'info') {\r\n        const existingNotifications = document.querySelectorAll('.notification');\r\n        existingNotifications.forEach(notification => notification.remove());\r\n\r\n        const notification = document.createElement('div');\r\n        notification.className = `notification notification-${type}`;\r\n        notification.textContent = message;\r\n\r\n        const styles = {\r\n            position: 'fixed',\r\n            top: '20px',\r\n            right: '20px',\r\n            padding: '1rem 2rem',\r\n            borderRadius: '8px',\r\n            color: 'white',\r\n            fontWeight: '500',\r\n            zIndex: '1001',\r\n            animation: 'slideIn 0.3s ease-out',\r\n            boxShadow: '0 4px 12px rgba(0,0,0,0.15)'\r\n        };\r\n\r\n        if (type === 'error') styles.background = '#dc3545';\r\n        else if (type === 'success') styles.background = '#28a745';\r\n        else styles.background = '#17a2b8';\r\n\r\n        Object.assign(notification.style, styles);\r\n\r\n        if (!document.querySelector('#notification-styles')) {\r\n            const style = document.createElement('style');\r\n            style.id = 'notification-styles';\r\n            style.textContent = `\r\n                @keyframes slideIn {\r\n                    from { transform: translateX(100%); opacity: 0; }\r\n                    to { transform: translateX(0); opacity: 1; }\r\n                }\r\n                @keyframes slideOut {\r\n                    from { transform: translateX(0); opacity: 1; }\r\n                    to { transform: translateX(100%); opacity: 0; }\r\n                }\r\n            `;\r\n            document.head.appendChild(style);\r\n        }\r\n\r\n        document.body.appendChild(notification);\r\n\r\n        setTimeout(() => {\r\n            notification.style.animation = 'slideOut 0.3s ease-in';\r\n            setTimeout(() => {\r\n                if (notification.parentNode) notification.parentNode.removeChild(notification);\r\n            }, 300);\r\n        }, 5000);\r\n    }\r\n});\r\n"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "sourceFile": "pages/otp-verification.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 20,
+            "patches": [
+                {
+                    "date": 1756806977823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1757048490516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,7 +61,10 @@\n         </div>\r\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n+    <script>\r\n+        \r\n+    </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757048506892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        \r\n+        const otp = \r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757048514051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = \r\n+        const otp = localStorage.getItem()\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757048523528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem()\r\n+        const otp = localStorage.getItem('emailOTP')\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757048531556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n         const otp = localStorage.getItem('emailOTP')\r\n+        console.log()\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757048628570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,10 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem('emailOTP')\r\n-        console.log()\r\n+\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049571047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-\r\n+        \r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049579043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        \r\n+        const otp = loca\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049585447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = loca\r\n+        const otp = localStorage.getItem('user')\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049606550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem('user')\r\n+        const otp = localStorage.getItem('userPIN')\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049612012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n         const otp = localStorage.getItem('userPIN')\r\n+        console.log()\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049778437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,47 +25,35 @@\n     <!-- Main Content -->\r\n     <main class=\"main-content\">\r\n         <div class=\"otp-container\">\r\n             <div class=\"otp-card\">\r\n-                <h2 class=\"otp-title\">OTP Code Verification</h2>\r\n-                <p class=\"otp-subtitle\">We have sent the code via your email please send the code in the column below</p>\r\n-                \r\n-                <!-- Demo OTP Display -->\r\n-                <div class=\"demo-otp-container\">\r\n-                    <p class=\"demo-otp-text\">Demo OTP Code (for testing purposes):</p>\r\n-                    <div class=\"demo-otp-code-container\">\r\n-                        <div class=\"demo-otp-code\" id=\"demoOtpCode\"></div>\r\n-                        <button type=\"button\" class=\"copy-otp-btn\" id=\"copyOtpBtn\" title=\"Copy OTP\">\r\n-                            <i class=\"fas fa-copy\"></i>\r\n-                        </button>\r\n-                    </div>\r\n-                    <p class=\"demo-otp-note\">This is a placeholder OTP. In a real application, this would be sent to your email.</p>\r\n-                </div>\r\n-                \r\n-                <form class=\"otp-form\" id=\"otpForm\">\r\n-                    <div class=\"otp-inputs\">\r\n-                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"0\">\r\n-                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"1\">\r\n-                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"2\">\r\n-                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"3\">\r\n-                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"4\">\r\n-                    </div>\r\n-                    \r\n-                    <button type=\"submit\" class=\"next-btn\" id=\"nextBtn\" disabled>Next</button>\r\n-                </form>\r\n-                \r\n-                <div class=\"otp-actions\">\r\n-                    <a href=\"forgot-password.html\" class=\"go-back-link\">Go back</a>\r\n-                    <button type=\"button\" class=\"resend-btn\" id=\"resendBtn\">Resend OTP</button>\r\n-                </div>\r\n+              <h2 class=\"otp-title\">OTP Code Verification</h2>\r\n+<p class=\"otp-subtitle\" id=\"otpSubtitle\"></p>\r\n+\r\n+<form class=\"otp-form\" id=\"otpForm\">\r\n+    <div class=\"otp-inputs\">\r\n+        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"0\">\r\n+        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"1\">\r\n+        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"2\">\r\n+        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"3\">\r\n+        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"4\">\r\n+    </div>\r\n+    <button type=\"submit\" class=\"next-btn\" id=\"nextBtn\" disabled>Next</button>\r\n+</form>\r\n+\r\n+<div class=\"otp-actions\">\r\n+    <a href=\"forgot-password.html\" class=\"go-back-link\">Go back</a>\r\n+    <button type=\"button\" class=\"resend-btn\" id=\"resendBtn\">Resend OTP</button>\r\n+</div>\r\n+\r\n             </div>\r\n         </div>\r\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n         const otp = localStorage.getItem('userPIN')\r\n-        console.log()\r\n+        console.log(otp)\r\n     </script>\r\n </body>\r\n </html>\r\n \r\n"
+                },
+                {
+                    "date": 1757049784207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,16 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n+\r\n <head>\r\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>OTP Code Verification - Herbert Schildt</title>\r\n     <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n     <link rel=\"stylesheet\" href=\"../css/otp-verification.css\">\r\n     <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n </head>\r\n+\r\n <body>\r\n     <!-- Header -->\r\n     <header class=\"header\">\r\n         <div class=\"header-left\">\r\n@@ -25,27 +27,26 @@\n     <!-- Main Content -->\r\n     <main class=\"main-content\">\r\n         <div class=\"otp-container\">\r\n             <div class=\"otp-card\">\r\n-              <h2 class=\"otp-title\">OTP Code Verification</h2>\r\n-<p class=\"otp-subtitle\" id=\"otpSubtitle\"></p>\r\n+                <h2 class=\"otp-title\">OTP Code Verification</h2>\r\n+                <p class=\"otp-subtitle\" id=\"otpSubtitle\"></p>\r\n \r\n-<form class=\"otp-form\" id=\"otpForm\">\r\n-    <div class=\"otp-inputs\">\r\n-        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"0\">\r\n-        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"1\">\r\n-        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"2\">\r\n-        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"3\">\r\n-        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"4\">\r\n-    </div>\r\n-    <button type=\"submit\" class=\"next-btn\" id=\"nextBtn\" disabled>Next</button>\r\n-</form>\r\n+                <form class=\"otp-form\" id=\"otpForm\">\r\n+                    <div class=\"otp-inputs\">\r\n+                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"0\">\r\n+                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"1\">\r\n+                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"2\">\r\n+                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"3\">\r\n+                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"4\">\r\n+                    </div>\r\n+                    <button type=\"submit\" class=\"next-btn\" id=\"nextBtn\" disabled>Next</button>\r\n+                </form>\r\n \r\n-<div class=\"otp-actions\">\r\n-    <a href=\"forgot-password.html\" class=\"go-back-link\">Go back</a>\r\n-    <button type=\"button\" class=\"resend-btn\" id=\"resendBtn\">Resend OTP</button>\r\n-</div>\r\n-\r\n+                <div class=\"otp-actions\">\r\n+                    <a href=\"forgot-password.html\" class=\"go-back-link\">Go back</a>\r\n+                    <button type=\"button\" class=\"resend-btn\" id=\"resendBtn\">Resend OTP</button>\r\n+                </div>\r\n             </div>\r\n         </div>\r\n     </main>\r\n \r\n@@ -54,6 +55,6 @@\n         const otp = localStorage.getItem('userPIN')\r\n         console.log(otp)\r\n     </script>\r\n </body>\r\n-</html>\r\n \r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1757049812249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n         <div class=\"otp-container\">\r\n             <div class=\"otp-card\">\r\n                 <h2 class=\"otp-title\">OTP Code Verification</h2>\r\n                 <p class=\"otp-subtitle\" id=\"otpSubtitle\"></p>\r\n-\r\n+                <h2></h2>\r\n                 <form class=\"otp-form\" id=\"otpForm\">\r\n                     <div class=\"otp-inputs\">\r\n                         <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"0\">\r\n                         <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"1\">\r\n"
+                },
+                {
+                    "date": 1757053645141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem('userPIN')\r\n+        const otp = localStorage.getItem('')\r\n         console.log(otp)\r\n     </script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1757054184749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem('')\r\n+        const otp = localStorage.getItem('userPin')\r\n         console.log(otp)\r\n     </script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1757054201996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem('userPin')\r\n+        const otp = localStorage.getItem('emailOTP')\r\n         console.log(otp)\r\n     </script>\r\n </body>\r\n \r\n"
+                },
+                {
+                    "date": 1757054857842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,10 +51,8 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n-        const otp = localStorage.getItem('emailOTP')\r\n-        console.log(otp)\r\n     </script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1757054926857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,11 @@\n     </main>\r\n \r\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n+       const emailOTP = JSON.parse(localStorage.getItem(\"emailOTP\")); // ❌ Error\r\n+\r\n+        console.log(otp)\r\n     </script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1757055130260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     <script src=\"../js/otp-verification.js\"></script>\r\n     <script>\r\n        const emailOTP = JSON.parse(localStorage.getItem(\"emailOTP\")); // ❌ Error\r\n \r\n-        console.log(otp)\r\n+        console.log(emailOTP)\r\n     </script>\r\n </body>\r\n \r\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1756806977823,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>OTP Code Verification - Herbert Schildt</title>\r\n    <link rel=\"stylesheet\" href=\"../css/styles.css\">\r\n    <link rel=\"stylesheet\" href=\"../css/otp-verification.css\">\r\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n    <!-- Header -->\r\n    <header class=\"header\">\r\n        <div class=\"header-left\">\r\n            <div class=\"logo\">\r\n                <img src=\"../img/logo-white.svg\" alt=\"Herbert Schildt Logo\" class=\"logo-image\">\r\n            </div>\r\n        </div>\r\n        <nav class=\"nav\">\r\n            <a href=\"../index.html\" class=\"nav-link\">Home</a>\r\n            <a href=\"#\" class=\"nav-link\">About</a>\r\n        </nav>\r\n    </header>\r\n\r\n    <!-- Main Content -->\r\n    <main class=\"main-content\">\r\n        <div class=\"otp-container\">\r\n            <div class=\"otp-card\">\r\n                <h2 class=\"otp-title\">OTP Code Verification</h2>\r\n                <p class=\"otp-subtitle\">We have sent the code via your email please send the code in the column below</p>\r\n                \r\n                <!-- Demo OTP Display -->\r\n                <div class=\"demo-otp-container\">\r\n                    <p class=\"demo-otp-text\">Demo OTP Code (for testing purposes):</p>\r\n                    <div class=\"demo-otp-code-container\">\r\n                        <div class=\"demo-otp-code\" id=\"demoOtpCode\"></div>\r\n                        <button type=\"button\" class=\"copy-otp-btn\" id=\"copyOtpBtn\" title=\"Copy OTP\">\r\n                            <i class=\"fas fa-copy\"></i>\r\n                        </button>\r\n                    </div>\r\n                    <p class=\"demo-otp-note\">This is a placeholder OTP. In a real application, this would be sent to your email.</p>\r\n                </div>\r\n                \r\n                <form class=\"otp-form\" id=\"otpForm\">\r\n                    <div class=\"otp-inputs\">\r\n                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"0\">\r\n                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"1\">\r\n                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"2\">\r\n                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"3\">\r\n                        <input type=\"text\" class=\"otp-input\" maxlength=\"1\" data-index=\"4\">\r\n                    </div>\r\n                    \r\n                    <button type=\"submit\" class=\"next-btn\" id=\"nextBtn\" disabled>Next</button>\r\n                </form>\r\n                \r\n                <div class=\"otp-actions\">\r\n                    <a href=\"forgot-password.html\" class=\"go-back-link\">Go back</a>\r\n                    <button type=\"button\" class=\"resend-btn\" id=\"resendBtn\">Resend OTP</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </main>\r\n\r\n    <script src=\"../js/otp-verification.js\"></script>\r\n</body>\r\n</html>\r\n\r\n"
+        }
+    ]
+}

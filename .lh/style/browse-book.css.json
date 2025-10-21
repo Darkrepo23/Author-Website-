@@ -1,0 +1,118 @@
+{
+    "sourceFile": "style/browse-book.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1756786237878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756786250451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,6 @@\n-.browse \n\\ No newline at end of file\n+.browse {\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+        \r\n+\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756786262002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n .browse {\r\n     display: flex;\r\n-    flex-direction: column;\r\n-        \r\n+    flex-direction: column;    \r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756786270256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .browse {\r\n     display: flex;\r\n-    flex-direction: column;    \r\n+    flex-direction: column;\r\n+    text-align: center;\r\n\\ No newline at end of file\n+}\r\n \r\n-}\n"
+                },
+                {
+                    "date": 1756786278594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .browse {\r\n     display: flex;\r\n     flex-direction: column;\r\n+    justify-content: center;\r\n     text-align: center;\r\n\\ No newline at end of file\n-}\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1756786284565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n .browse {\r\n     display: flex;\r\n     flex-direction: column;\r\n     justify-content: center;\r\n+    align-items: center;\r\n+    height: ;\r\n     text-align: center;\r\n }\r\n+\r\n"
+                },
+                {
+                    "date": 1756786294793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     display: flex;\r\n     flex-direction: column;\r\n     justify-content: center;\r\n     align-items: center;\r\n-    height: ;\r\n+    height: 23rem;\r\n+    gap2rem\r\n     text-align: center;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786301477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     flex-direction: column;\r\n     justify-content: center;\r\n     align-items: center;\r\n     height: 23rem;\r\n-    gap2rem\r\n+    gap: 2rem;\r\n     text-align: center;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786308561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n     flex-direction: column;\r\n     justify-content: center;\r\n     align-items: center;\r\n     height: 23rem;\r\n-    gap: 2rem;\r\n+    gap: 1rem;\r\n     text-align: center;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786316969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,4 +7,6 @@\n     gap: 1rem;\r\n     text-align: center;\r\n }\r\n \r\n+.header\r\n+\r\n"
+                },
+                {
+                    "date": 1756786325783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n     gap: 1rem;\r\n     text-align: center;\r\n }\r\n \r\n-.header\r\n+.bo\r\n \r\n"
+                },
+                {
+                    "date": 1756786333537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,8 @@\n     gap: 1rem;\r\n     text-align: center;\r\n }\r\n \r\n-.bo\r\n+.browse .browse-search {\r\n+    \r\n+}\r\n \r\n"
+                },
+                {
+                    "date": 1756786342396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n     text-align: center;\r\n }\r\n \r\n .browse .browse-search {\r\n-    \r\n+    display: fle;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786349503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,8 @@\n     text-align: center;\r\n }\r\n \r\n .browse .browse-search {\r\n-    display: fle;\r\n+    display: flex;\r\n+    justify-content: center;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786357845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,7 @@\n \r\n .browse .browse-search {\r\n     display: flex;\r\n     justify-content: center;\r\n+    gap: 2;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786365833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n \r\n .browse .browse-search {\r\n     display: flex;\r\n     justify-content: center;\r\n-    gap: 2;\r\n+    gap: 2rem;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786372422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,4 +13,6 @@\n     justify-content: center;\r\n     gap: 2rem;\r\n }\r\n \r\n+.brosw\r\n+\r\n"
+                },
+                {
+                    "date": 1756786378724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,8 @@\n     justify-content: center;\r\n     gap: 2rem;\r\n }\r\n \r\n-.brosw\r\n+.browse-search input {\r\n+    \r\n+}\r\n \r\n"
+                },
+                {
+                    "date": 1756786397319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,8 @@\n     gap: 2rem;\r\n }\r\n \r\n .browse-search input {\r\n-    \r\n+    border: none;\r\n+    border: 1px solid;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786402780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,8 @@\n }\r\n \r\n .browse-search input {\r\n     border: none;\r\n-    border: 1px solid;\r\n+    border: 1px solid black;\r\n+    border-radius: ;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786417561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,8 @@\n \r\n .browse-search input {\r\n     border: none;\r\n     border: 1px solid black;\r\n-    border-radius: ;\r\n+    border-radius: 5px;\r\n+    padding: 1rem;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786423537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,7 @@\n     border: none;\r\n     border: 1px solid black;\r\n     border-radius: 5px;\r\n     padding: 1rem;\r\n+    font-size: ;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786430323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n     border: none;\r\n     border: 1px solid black;\r\n     border-radius: 5px;\r\n     padding: 1rem;\r\n-    font-size: ;\r\n+    font-size: 1rem;\r\n+    font\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786440633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,7 +19,7 @@\n     border: 1px solid black;\r\n     border-radius: 5px;\r\n     padding: 1rem;\r\n     font-size: 1rem;\r\n-    font\r\n+    font-family: 'Inter Regular';\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1756786456568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,6 +22,6 @@\n     font-size: 1rem;\r\n     font-family: 'Inter Regular';\r\n }\r\n \r\n-.browse\r\n+.browse-\r\n \r\n"
+                },
+                {
+                    "date": 1756786495760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,7 @@\n \r\n .browse-search button {\r\n     background-color: #B73939;\r\n     border: none;\r\n-    border    \r\n+    border: ;    \r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1756786237878,
+            "name": "Commit-0",
+            "content": ".browse "
+        }
+    ]
+}

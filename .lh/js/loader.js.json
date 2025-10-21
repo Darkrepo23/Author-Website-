@@ -1,0 +1,22 @@
+{
+    "sourceFile": "js/loader.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1757433966139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1757436006470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,9 @@\n-            function loader(seconds, callback) {\r\n+       function loader(seconds, callback) {\r\n                 const overlay = document.getElementById('loadingOverlay');\r\n-                overlay.style.display = \"flex\"; // show loader\r\n+                overlay.style.display = \"flex\";\r\n \r\n                 setTimeout(() => {\r\n-                    overlay.style.display = \"none\"; // hide again\r\n-                    if (callback) callback(); // optional redirect or next action\r\n+                    overlay.style.display = \"none\";\r\n+                    if (callback) callback();\r\n                 }, seconds * 1000);\r\n-            }\r\n-\r\n-            // Attach loader to login link\r\n-            document.getElementById('userLink').addEventListener('click', function (e) {\r\n-                e.preventDefault(); // stop immediate navigation\r\n-                loader(2, () => {\r\n-                    window.location.href = this.href; // go to login page after loader\r\n-                });\r\n-            });\r\n+            }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1757433966139,
+            "name": "Commit-0",
+            "content": "            function loader(seconds, callback) {\r\n                const overlay = document.getElementById('loadingOverlay');\r\n                overlay.style.display = \"flex\"; // show loader\r\n\r\n                setTimeout(() => {\r\n                    overlay.style.display = \"none\"; // hide again\r\n                    if (callback) callback(); // optional redirect or next action\r\n                }, seconds * 1000);\r\n            }\r\n\r\n            // Attach loader to login link\r\n            document.getElementById('userLink').addEventListener('click', function (e) {\r\n                e.preventDefault(); // stop immediate navigation\r\n                loader(2, () => {\r\n                    window.location.href = this.href; // go to login page after loader\r\n                });\r\n            });\r\n"
+        }
+    ]
+}

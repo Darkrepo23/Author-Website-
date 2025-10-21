@@ -1,0 +1,254 @@
+{
+    "sourceFile": "all-books.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 59,
+            "patches": [
+                {
+                    "date": 1756814218455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756814224856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"description\": \"The definitive guide to Java programming, covering Java 17 and all its features. Perfect for both beginners and experienced developers.\",\r\n     \"price\": 59.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.8,\r\n-    \"image\": img/Java Complete.jpg\",\r\n+    \"image\": \"img/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n     \"inStock\": true,\r\n@@ -21,9 +21,9 @@\n     \"description\": \"Comprehensive coverage of C++ programming language, including modern C++ features, templates, and STL.\",\r\n     \"price\": 54.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"../img/c++ complete.jpg\",\r\n+    \"image\": \"img/c++ complete.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 1056,\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756814231101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     \"description\": \"Complete guide to C programming language, covering all aspects from basics to advanced concepts.\",\r\n     \"price\": 49.99,\r\n     \"category\": \"c\",\r\n     \"rating\": 4.6,\r\n-    \"image\": \"../img/C,_The_Complete_Reference.jpg\",\r\n+    \"image\": \"img/C,_The_Complete_Reference.jpg\",\r\n     \"year\": 2020,\r\n     \"pages\": 976,\r\n     \"isbn\": \"978-0072121574\",\r\n     \"inStock\": true,\r\n@@ -51,9 +51,9 @@\n     \"description\": \"Perfect starting point for Java beginners with hands-on examples and step-by-step tutorials.\",\r\n     \"price\": 34.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.6,\r\n-    \"image\": \"../img/Java2.jpg\",\r\n+    \"image\": \"img/Java2.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 512,\r\n     \"isbn\": \"978-1260454472\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815293327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"description\": \"The definitive guide to Java programming, covering Java 17 and all its features. Perfect for both beginners and experienced developers.\",\r\n     \"price\": 59.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.8,\r\n-    \"image\": \"img/Java Complete.jpg\",\r\n+    \"image\": \"img/bJava Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815324494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"description\": \"The definitive guide to Java programming, covering Java 17 and all its features. Perfect for both beginners and experienced developers.\",\r\n     \"price\": 59.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.8,\r\n-    \"image\": \"img/bJava Complete.jpg\",\r\n+    \"image\": \"img/booksJava Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815343140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     \"description\": \"The definitive guide to Java programming, covering Java 17 and all its features. Perfect for both beginners and experienced developers.\",\r\n     \"price\": 59.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.8,\r\n-    \"image\": \"img/booksJava Complete.jpg\",\r\n+    \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n     \"inStock\": true,\r\n@@ -21,9 +21,9 @@\n     \"description\": \"Comprehensive coverage of C++ programming language, including modern C++ features, templates, and STL.\",\r\n     \"price\": 54.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"img/c++ complete.jpg\",\r\n+    \"image\": \"img//books/c++ complete.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 1056,\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815352513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     \"description\": \"Comprehensive coverage of C++ programming language, including modern C++ features, templates, and STL.\",\r\n     \"price\": 54.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"img//books/c++ complete.jpg\",\r\n+    \"image\": \"img/books/c++ complete.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 1056,\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n@@ -36,9 +36,9 @@\n     \"description\": \"Complete guide to C programming language, covering all aspects from basics to advanced concepts.\",\r\n     \"price\": 49.99,\r\n     \"category\": \"c\",\r\n     \"rating\": 4.6,\r\n-    \"image\": \"img/C,_The_Complete_Reference.jpg\",\r\n+    \"image\": \"img/books/C,_The_Complete_Reference.jpg\",\r\n     \"year\": 2020,\r\n     \"pages\": 976,\r\n     \"isbn\": \"978-0072121574\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815357751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     \"description\": \"Perfect starting point for Java beginners with hands-on examples and step-by-step tutorials.\",\r\n     \"price\": 34.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.6,\r\n-    \"image\": \"img/Java2.jpg\",\r\n+    \"image\": \"img/books/Java2.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 512,\r\n     \"isbn\": \"978-1260454472\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815363753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     \"description\": \"Learn C++ from the ground up with practical examples and real-world programming scenarios.\",\r\n     \"price\": 32.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.5,\r\n-    \"image\": \"../img/c++ beginner.jpg\",\r\n+    \"image\": \"/img/c++ beginner.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 480,\r\n     \"isbn\": \"978-1260454473\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815370026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     \"description\": \"Learn C++ from the ground up with practical examples and real-world programming scenarios.\",\r\n     \"price\": 32.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.5,\r\n-    \"image\": \"/img/c++ beginner.jpg\",\r\n+    \"image\": \"img/books/c++ beginner.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 480,\r\n     \"isbn\": \"978-1260454473\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815568882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"../img/java cookbook.jpg\",\r\n+    \"image\": \"img/java cookbook.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 896,\r\n     \"isbn\": \"978-1260454474\",\r\n     \"inStock\": true,\r\n@@ -96,9 +96,9 @@\n     \"description\": \"Deep dive into C++ templates, Standard Template Library, and advanced C++ programming techniques.\",\r\n     \"price\": 58.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.6,\r\n-    \"image\": \"../img/STL.jpg\",\r\n+    \"image\": \"img/STL.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815588448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n     \"description\": \"Learn C programming fundamentals with clear explanations and practical examples.\",\r\n     \"price\": 29.99,\r\n     \"category\": \"c\",\r\n     \"rating\": 4.5,\r\n-    \"image\": \"../img/c.jpg\",\r\n+    \"image\": \"img/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815608958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n     \"description\": \"Learn C programming fundamentals with clear explanations and practical examples.\",\r\n     \"price\": 29.99,\r\n     \"category\": \"c\",\r\n     \"rating\": 4.5,\r\n-    \"image\": \"img/c.jpg\",\r\n+    \"image\": \"img/books/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756815616171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"img/java cookbook.jpg\",\r\n+    \"image\": \"img/books/java cookbook.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 896,\r\n     \"isbn\": \"978-1260454474\",\r\n     \"inStock\": true,\r\n@@ -96,9 +96,9 @@\n     \"description\": \"Deep dive into C++ templates, Standard Template Library, and advanced C++ programming techniques.\",\r\n     \"price\": 58.99,\r\n     \"category\": \"cpp\",\r\n     \"rating\": 4.6,\r\n-    \"image\": \"img/STL.jpg\",\r\n+    \"image\": \"img/books/STL.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756820259279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"img/books/java cookbook.jpg\",\r\n+    \"image\": \"img/books/javacookbook.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 896,\r\n     \"isbn\": \"978-1260454474\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756820327524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.7,\r\n-    \"image\": \"img/books/javacookbook.jpg\",\r\n+    \"image\": \"img/books/java cookbook.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 896,\r\n     \"isbn\": \"978-1260454474\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756820618910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n     \"featured\": false\r\n   },\r\n   {\r\n     \"id\": 6,\r\n-    \"title\": \" Java Programming Cookbook\",\r\n+    \"title\": \"Java Programming Cookbook\",\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n"
+                },
+                {
+                    "date": 1756824722964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n   {\r\n     \"id\": 6,\r\n     \"title\": \"Java Programming Cookbook\",\r\n     \"author\": \"Herb Schildt\",\r\n-    \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n+    \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n     \"rating\": 4.7,\r\n     \"image\": \"img/books/java cookbook.jpg\",\r\n"
+                },
+                {
+                    "date": 1756824729474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n     \"featured\": false\r\n   },\r\n   {\r\n     \"id\": 6,\r\n-    \"title\": \"Java Programming Cookbook\",\r\n+    \"title\": \" Java Programming Cookbook\",\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n"
+                },
+                {
+                    "date": 1756824802145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,10 @@\n     \"featured\": false\r\n   },\r\n   {\r\n     \"id\": 6,\r\n-    \"title\": \" Java Programming Cookbook\",\r\n+    \"title\": \"Java Programming Cookbook\",\r\n+\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n"
+                },
+                {
+                    "date": 1756824937291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n     \"featured\": false\r\n   },\r\n   {\r\n     \"id\": 6,\r\n-    \"title\": \"Java Programming Cookbook\",\r\n+   \"title\": \"Java Programming Cookbook\",\r\n \r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n"
+                },
+                {
+                    "date": 1756968203131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n     \"pages\": 1056,\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n+\r\n   },\r\n   {\r\n     \"id\": 3,\r\n     \"title\": \"C: The Complete Reference\",\r\n@@ -76,9 +77,8 @@\n   },\r\n   {\r\n     \"id\": 6,\r\n    \"title\": \"Java Programming Cookbook\",\r\n-\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n"
+                },
+                {
+                    "date": 1756968219806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,9 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n+    \"\"\r\n   },\r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n"
+                },
+                {
+                    "date": 1756968225444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,9 +103,9 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n-    \"\"\r\n+    \"amazon\": \r\n   },\r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n"
+                },
+                {
+                    "date": 1756968232429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,10 +102,10 @@\n     \"year\": 2021,\r\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n-    \"featured\": false\r\n-    \"amazon\": \r\n+    \"featured\": false,\r\n+    \"amazon\": true;\r\n   },\r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n"
+                },
+                {
+                    "date": 1756968240773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,10 +103,11 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false,\r\n-    \"amazon\": true;\r\n+    \"amazon\": true\r\n   },\r\n+  \r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n     \"author\": \"Herb Schildt\",\r\n"
+                },
+                {
+                    "date": 1756968246448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,11 +103,11 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false,\r\n-    \"amazon\": true\r\n+    \"noStock\": true\r\n   },\r\n-  \r\n+\r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n     \"author\": \"Herb Schildt\",\r\n"
+                },
+                {
+                    "date": 1756968253364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,8 +89,9 @@\n     \"isbn\": \"978-1260454474\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n+  \r\n   {\r\n     \"id\": 7,\r\n     \"title\": \"C++ Templates and STL\",\r\n     \"author\": \"Herb Schildt\",\r\n"
+                },
+                {
+                    "date": 1756970430622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \"inStock\": true,\r\n+    \"inStock\": false,\r\n     \"featured\": true\r\n   },\r\n   {\r\n     \"id\": 2,\r\n@@ -89,9 +89,9 @@\n     \"isbn\": \"978-1260454474\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n-  \r\n+\r\n   {\r\n     \"id\": 7,\r\n     \"title\": \"C++ Templates and STL\",\r\n     \"author\": \"Herb Schildt\",\r\n"
+                },
+                {
+                    "date": 1756970447132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \"inStock\": false,\r\n+    \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n     \"id\": 2,\r\n"
+                },
+                {
+                    "date": 1756972125719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n+    \r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756972130771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \r\n+    \"pdf\"\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756972143224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \"pdf\"\r\n+    \"pdf\": \"books\"\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756972177846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \"pdf\": \"books\"\r\n+    \"pdf\": \"books-pdf/\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756972190730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \"pdf\": \"books-pdf/\",\r\n+    \"pdf\": \"books-pdf/_Java_The_Complete_Reference_13th_Ed_-_Herbert_Schildt (1)\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756996927128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     \"image\": \"img/books/Java Complete.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 1248,\r\n     \"isbn\": \"978-1260454468\",\r\n-    \"pdf\": \"books-pdf/_Java_The_Complete_Reference_13th_Ed_-_Herbert_Schildt (1)\",\r\n+    \"pdf\": \"books-pdf/_Java_The_Complete_Reference_13th_Ed_-_Herbert_Schildt (1).pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n@@ -25,8 +25,9 @@\n     \"rating\": 4.7,\r\n     \"image\": \"img/books/c++ complete.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 1056,\r\n+    \"pdf\": \"books-pdf/_Java_The_Complete_Reference_13th_Ed_-_Herbert_Schildt (1).pdf\",\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n \r\n"
+                },
+                {
+                    "date": 1756996945434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     \"rating\": 4.7,\r\n     \"image\": \"img/books/c++ complete.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 1056,\r\n-    \"pdf\": \"books-pdf/_Java_The_Complete_Reference_13th_Ed_-_Herbert_Schildt (1).pdf\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt\",\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n \r\n"
+                },
+                {
+                    "date": 1756996966029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     \"rating\": 4.7,\r\n     \"image\": \"img/books/c++ complete.jpg\",\r\n     \"year\": 2021,\r\n     \"pages\": 1056,\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n \r\n"
+                },
+                {
+                    "date": 1756996974966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n     \"image\": \"img/books/C,_The_Complete_Reference.jpg\",\r\n     \"year\": 2020,\r\n     \"pages\": 976,\r\n     \"isbn\": \"978-0072121574\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\"\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756996983197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     \"image\": \"img/books/C,_The_Complete_Reference.jpg\",\r\n     \"year\": 2020,\r\n     \"pages\": 976,\r\n     \"isbn\": \"978-0072121574\",\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\"\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n@@ -59,8 +59,9 @@\n     \"image\": \"img/books/Java2.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 512,\r\n     \"isbn\": \"978-1260454472\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756996988704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,8 +75,9 @@\n     \"image\": \"img/books/c++ beginner.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 480,\r\n     \"isbn\": \"978-1260454473\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n   {\r\n@@ -90,8 +91,9 @@\n     \"image\": \"img/books/java cookbook.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 896,\r\n     \"isbn\": \"978-1260454474\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n \r\n"
+                },
+                {
+                    "date": 1756996997292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,8 +122,9 @@\n     \"price\": 29.99,\r\n     \"category\": \"c\",\r\n     \"rating\": 4.5,\r\n     \"image\": \"img/books/c.jpg\",\r\n+    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756997075128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,8 @@\n     \"price\": 29.99,\r\n     \"category\": \"c\",\r\n     \"rating\": 4.5,\r\n     \"image\": \"img/books/c.jpg\",\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n     \"inStock\": true,\r\n"
+                },
+                {
+                    "date": 1756997105239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n     \"image\": \"img/books/Java2.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 512,\r\n     \"isbn\": \"978-1260454472\",\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n+    \"pdf\": \"books-pdf/Java - A Beginner's Guide, 3rd Edition.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756997123716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n     \"image\": \"img/books/C,_The_Complete_Reference.jpg\",\r\n     \"year\": 2020,\r\n     \"pages\": 976,\r\n     \"isbn\": \"978-0072121574\",\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n+    \"pdf\": \"books-pdf/C The Complete Reference 4th Ed Herbert Schildt.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756997154487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n     \"image\": \"img/books/c++ beginner.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 480,\r\n     \"isbn\": \"978-1260454473\",\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n+    \"pdf\": \"books-pdf/C++_ A Beginner's Guide, Second Edition by Herbert Schildt.pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n   {\r\n"
+                },
+                {
+                    "date": 1756997173345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n     \"image\": \"img/books/java cookbook.jpg\",\r\n     \"year\": 2023,\r\n     \"pages\": 896,\r\n     \"isbn\": \"978-1260454474\",\r\n-    \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n+    \"pdf\": \"books-pdf/[Herb_Schildt]_Herb_Schildt's_Java_Programming_Coo(libcats.org).pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n \r\n"
+                },
+                {
+                    "date": 1756998979843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,8 +125,9 @@\n     \"image\": \"img/books/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n+    \r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n ]\r\n"
+                },
+                {
+                    "date": 1756998985115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n     \"image\": \"img/books/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n-    \r\n+    \"isbn\": \"978-1260454476\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n ]\r\n"
+                },
+                {
+                    "date": 1756998991904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n     \"image\": \"img/books/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n-    \"isbn\": \"978-1260454476\",\r\n+    \"amazon\": true,\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n ]\r\n"
+                },
+                {
+                    "date": 1756999003052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,8 +110,9 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false,\r\n+    \"goodsreas\": true,\r\n     \"noStock\": true\r\n   },\r\n \r\n   {\r\n"
+                },
+                {
+                    "date": 1756999131735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false,\r\n-    \"goodsreas\": true,\r\n+    \"goodsread\": true,\r\n     \"noStock\": true\r\n   },\r\n \r\n   {\r\n@@ -126,9 +126,9 @@\n     \"image\": \"img/books/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n-    \"amazon\": true,\r\n+    \"amazon\": '',\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n ]\r\n"
+                },
+                {
+                    "date": 1756999141259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": false,\r\n-    \"goodsread\": true,\r\n+    \"goodsread\": \"https://www.amazon.fr/-/en/Herbert-Schildt/dp/0078823110\",\r\n     \"noStock\": true\r\n   },\r\n \r\n   {\r\n@@ -126,9 +126,9 @@\n     \"image\": \"img/books/c.jpg\",\r\n     \"year\": 2022,\r\n     \"pages\": 400,\r\n     \"isbn\": \"978-1260454476\",\r\n-    \"amazon\": '',\r\n+    \"amazon\": \"https://www.amazon.fr/-/en/Herbert-Schildt/dp/0078823110\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n ]\r\n"
+                },
+                {
+                    "date": 1756999163042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,10 +109,10 @@\n     \"year\": 2021,\r\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n-    \"featured\": false,\r\n-    \"goodsread\": \"https://www.amazon.fr/-/en/Herbert-Schildt/dp/0078823110\",\r\n+    \"featured\": \"false\",\r\n+    \"goodsread\": \"\",\r\n     \"noStock\": true\r\n   },\r\n \r\n   {\r\n"
+                },
+                {
+                    "date": 1756999170064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,8 @@\n     \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n-\r\n   },\r\n   {\r\n     \"id\": 3,\r\n     \"title\": \"C: The Complete Reference\",\r\n@@ -81,9 +80,9 @@\n     \"featured\": false\r\n   },\r\n   {\r\n     \"id\": 6,\r\n-   \"title\": \"Java Programming Cookbook\",\r\n+    \"title\": \"Java Programming Cookbook\",\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n@@ -95,9 +94,8 @@\n     \"pdf\": \"books-pdf/[Herb_Schildt]_Herb_Schildt's_Java_Programming_Coo(libcats.org).pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n-\r\n   {\r\n     \"id\": 7,\r\n     \"title\": \"C++ Templates and STL\",\r\n     \"author\": \"Herb Schildt\",\r\n@@ -109,13 +107,12 @@\n     \"year\": 2021,\r\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n-    \"featured\": \"false\",\r\n+    \"featured\": \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F1672562.STL_Programming_from_the_Ground_Up&psig=AOvVaw0LVjPHRflEMYYaIjf89LBM&ust=1757056056190000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCPj9v4PGvo8DFQAAAAAdAAAAABAE\",\r\n     \"goodsread\": \"\",\r\n     \"noStock\": true\r\n   },\r\n-\r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n     \"author\": \"Herb Schildt\",\r\n@@ -130,5 +127,5 @@\n     \"amazon\": \"https://www.amazon.fr/-/en/Herbert-Schildt/dp/0078823110\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n-]\r\n+]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756999177786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n     \"pdf\": \"books-pdf/c++ the complete reference, 4th edition - herbert schildt.pdf\",\r\n     \"isbn\": \"978-0070532465\",\r\n     \"inStock\": true,\r\n     \"featured\": true\r\n+\r\n   },\r\n   {\r\n     \"id\": 3,\r\n     \"title\": \"C: The Complete Reference\",\r\n@@ -80,9 +81,9 @@\n     \"featured\": false\r\n   },\r\n   {\r\n     \"id\": 6,\r\n-    \"title\": \"Java Programming Cookbook\",\r\n+   \"title\": \"Java Programming Cookbook\",\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n     \"price\": 64.99,\r\n     \"category\": \"java\",\r\n@@ -94,8 +95,9 @@\n     \"pdf\": \"books-pdf/[Herb_Schildt]_Herb_Schildt's_Java_Programming_Coo(libcats.org).pdf\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   },\r\n+\r\n   {\r\n     \"id\": 7,\r\n     \"title\": \"C++ Templates and STL\",\r\n     \"author\": \"Herb Schildt\",\r\n@@ -107,12 +109,13 @@\n     \"year\": 2021,\r\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n-    \"featured\": \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F1672562.STL_Programming_from_the_Ground_Up&psig=AOvVaw0LVjPHRflEMYYaIjf89LBM&ust=1757056056190000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCPj9v4PGvo8DFQAAAAAdAAAAABAE\",\r\n+    \"featured\": \"\",\r\n     \"goodsread\": \"\",\r\n     \"noStock\": true\r\n   },\r\n+\r\n   {\r\n     \"id\": 8,\r\n     \"title\": \"C Programming: A Beginner's Guide\",\r\n     \"author\": \"Herb Schildt\",\r\n@@ -127,5 +130,5 @@\n     \"amazon\": \"https://www.amazon.fr/-/en/Herbert-Schildt/dp/0078823110\",\r\n     \"inStock\": true,\r\n     \"featured\": false\r\n   }\r\n-]\n\\ No newline at end of file\n+]\r\n"
+                },
+                {
+                    "date": 1756999210110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,10 +110,9 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": \"\",\r\n-    \"goodsread\": \"\",\r\n-    \"noStock\": true\r\n+https://www.goodreads.com/book/show/1672562.STL_Programming_from_the_Ground_Up    \"noStock\": true\r\n   },\r\n \r\n   {\r\n     \"id\": 8,\r\n"
+                },
+                {
+                    "date": 1756999217712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,10 @@\n     \"pages\": 784,\r\n     \"isbn\": \"978-1260454475\",\r\n     \"inStock\": true,\r\n     \"featured\": \"\",\r\n-https://www.goodreads.com/book/show/1672562.STL_Programming_from_the_Ground_Up    \"noStock\": true\r\n+    \"goodsread\": \"https://www.goodreads.com/book/show/1672562.STL_Programming_from_the_Ground_Up\",\r\n+    \"noStock\": true\r\n   },\r\n \r\n   {\r\n     \"id\": 8,\r\n"
+                },
+                {
+                    "date": 1757001097568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n   },\r\n \r\n   {\r\n     \"id\": 8,\r\n-    \"title\": \"C Programming: A Beginner's Guide\",\r\n+    \"title\": \"Teach Yourself at C\",\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Learn C programming fundamentals with clear explanations and practical examples.\",\r\n     \"price\": 29.99,\r\n     \"category\": \"c\",\r\n"
+                },
+                {
+                    "date": 1757001117865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -116,9 +116,9 @@\n   },\r\n \r\n   {\r\n     \"id\": 8,\r\n-    \"title\": \"Teach Yourself at C\",\r\n+    \"title\": \"Teach Yourself C\",\r\n     \"author\": \"Herb Schildt\",\r\n     \"description\": \"Learn C programming fundamentals with clear explanations and practical examples.\",\r\n     \"price\": 29.99,\r\n     \"category\": \"c\",\r\n"
+                }
+            ],
+            "date": 1756814218455,
+            "name": "Commit-0",
+            "content": "[\r\n  {\r\n    \"id\": 1,\r\n    \"title\": \"Java: The Complete Reference\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"The definitive guide to Java programming, covering Java 17 and all its features. Perfect for both beginners and experienced developers.\",\r\n    \"price\": 59.99,\r\n    \"category\": \"java\",\r\n    \"rating\": 4.8,\r\n    \"image\": img/Java Complete.jpg\",\r\n    \"year\": 2022,\r\n    \"pages\": 1248,\r\n    \"isbn\": \"978-1260454468\",\r\n    \"inStock\": true,\r\n    \"featured\": true\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"title\": \"C++: The Complete Reference\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"Comprehensive coverage of C++ programming language, including modern C++ features, templates, and STL.\",\r\n    \"price\": 54.99,\r\n    \"category\": \"cpp\",\r\n    \"rating\": 4.7,\r\n    \"image\": \"../img/c++ complete.jpg\",\r\n    \"year\": 2021,\r\n    \"pages\": 1056,\r\n    \"isbn\": \"978-0070532465\",\r\n    \"inStock\": true,\r\n    \"featured\": true\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"title\": \"C: The Complete Reference\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"Complete guide to C programming language, covering all aspects from basics to advanced concepts.\",\r\n    \"price\": 49.99,\r\n    \"category\": \"c\",\r\n    \"rating\": 4.6,\r\n    \"image\": \"../img/C,_The_Complete_Reference.jpg\",\r\n    \"year\": 2020,\r\n    \"pages\": 976,\r\n    \"isbn\": \"978-0072121574\",\r\n    \"inStock\": true,\r\n    \"featured\": true\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"title\": \"Java Programming: A Beginner's Guide\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"Perfect starting point for Java beginners with hands-on examples and step-by-step tutorials.\",\r\n    \"price\": 34.99,\r\n    \"category\": \"java\",\r\n    \"rating\": 4.6,\r\n    \"image\": \"../img/Java2.jpg\",\r\n    \"year\": 2023,\r\n    \"pages\": 512,\r\n    \"isbn\": \"978-1260454472\",\r\n    \"inStock\": true,\r\n    \"featured\": false\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"title\": \"C++ Programming: A Beginner's Guide\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"Learn C++ from the ground up with practical examples and real-world programming scenarios.\",\r\n    \"price\": 32.99,\r\n    \"category\": \"cpp\",\r\n    \"rating\": 4.5,\r\n    \"image\": \"../img/c++ beginner.jpg\",\r\n    \"year\": 2022,\r\n    \"pages\": 480,\r\n    \"isbn\": \"978-1260454473\",\r\n    \"inStock\": true,\r\n    \"featured\": false\r\n  },\r\n  {\r\n    \"id\": 6,\r\n    \"title\": \" Java Programming Cookbook\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \" Java Programming Cookbook concepts including multithreading, networking, database connectivity, and enterprise features.\",\r\n    \"price\": 64.99,\r\n    \"category\": \"java\",\r\n    \"rating\": 4.7,\r\n    \"image\": \"../img/java cookbook.jpg\",\r\n    \"year\": 2023,\r\n    \"pages\": 896,\r\n    \"isbn\": \"978-1260454474\",\r\n    \"inStock\": true,\r\n    \"featured\": false\r\n  },\r\n  {\r\n    \"id\": 7,\r\n    \"title\": \"C++ Templates and STL\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"Deep dive into C++ templates, Standard Template Library, and advanced C++ programming techniques.\",\r\n    \"price\": 58.99,\r\n    \"category\": \"cpp\",\r\n    \"rating\": 4.6,\r\n    \"image\": \"../img/STL.jpg\",\r\n    \"year\": 2021,\r\n    \"pages\": 784,\r\n    \"isbn\": \"978-1260454475\",\r\n    \"inStock\": true,\r\n    \"featured\": false\r\n  },\r\n  {\r\n    \"id\": 8,\r\n    \"title\": \"C Programming: A Beginner's Guide\",\r\n    \"author\": \"Herb Schildt\",\r\n    \"description\": \"Learn C programming fundamentals with clear explanations and practical examples.\",\r\n    \"price\": 29.99,\r\n    \"category\": \"c\",\r\n    \"rating\": 4.5,\r\n    \"image\": \"../img/c.jpg\",\r\n    \"year\": 2022,\r\n    \"pages\": 400,\r\n    \"isbn\": \"978-1260454476\",\r\n    \"inStock\": true,\r\n    \"featured\": false\r\n  }\r\n]\r\n"
+        }
+    ]
+}
