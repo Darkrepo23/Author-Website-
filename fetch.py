@@ -17,7 +17,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")  # your template folder
 
-app = Flask(__name__,  template_folder=os.path.join(BASE_DIR, "templates"))
+app = Flask(__name__, template_folder=BASE_DIR)
 CORS(app)  # ✅ Enable CORS for all routes
 
 # Database connection function (reusable)
