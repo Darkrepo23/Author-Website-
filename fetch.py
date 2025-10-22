@@ -58,6 +58,11 @@ def home():
     return render_template("index.html")
 
 
+@app.route('/<path:filename>')
+def serve_file(filename):
+    return send_from_directory(BASE_DIR, filename)
+
+
 @app.route("/login", methods=["POST"])
 def login():
     data = request.json
