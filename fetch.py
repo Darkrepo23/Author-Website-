@@ -15,7 +15,6 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")  # your template folder
 
 app = Flask(__name__, template_folder=BASE_DIR)
 CORS(app)  # ✅ Enable CORS for all routes
@@ -52,12 +51,16 @@ def get_db_connection():
         "Database=DBCRUD;"
         "Trusted_Connection=yes;"
     )
-       
+    
     
 @app.route("/")
 def home():
     return render_template("index.html")
 
+
+@app.route('/<path:filename>')
+def serve_file(filename):
+    return send_from_directory(BASE_DIR, filename)
 
 
 @app.route("/login", methods=["POST"])
@@ -656,6 +659,7 @@ def update_book(book_id):
 
 
 
+
 @app.route("/upload-cover/<int:book_id>", methods=["POST"])
 def upload_cover(book_id):
     try:
@@ -687,9 +691,6 @@ def upload_cover(book_id):
     except Exception as e:
         print("ERROR upload_cover:", e)
         return jsonify({"success": False, "message": str(e)}), 500
-
-
-
 
 @app.route("/get-pdf/<int:book_id>", methods=["GET"])
 def get_pdf(book_id):
@@ -973,5 +974,4 @@ def update_password():
 
 
 if __name__ == "__main__":
-   app = Flask(__name__, template_folder=".")
-
+    app = Flask(__name__, template_folder=".")
