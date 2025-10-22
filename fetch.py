@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file, send_from_directory
+from flask import Flask, request, jsonify, send_file, send_from_directory, render_template
 from flask_cors import CORS
 import pyodbc
 from werkzeug.utils import secure_filename
@@ -51,6 +51,11 @@ def get_db_connection():
         "Database=DBCRUD;"
         "Trusted_Connection=yes;"
     )
+    
+    
+@app.route("/")
+def home():
+    return render_template("index.html")
 
 
 @app.route("/login", methods=["POST"])
