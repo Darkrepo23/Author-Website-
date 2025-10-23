@@ -27,7 +27,8 @@
     <div class="admin-profile">
       <div class="avatar" aria-hidden="true"></div>
       <div class="admin-name">Admin</div>
-      <a href="../login.html" class="logout">Log Out</a>
+      <a href="../login.html" class="logout" onclick="logoutUser(event)">Log Out</a>
+
     </div>
   </aside>
 
@@ -564,6 +565,19 @@
           document.getElementById("edit-bookpdf").style.display = "none";
         }
       }
+
+      function logoutUser(event) {
+        event.preventDefault(); // Stop the default link navigation first
+
+        // 🧹 Clear current user data
+        localStorage.removeItem("currentUser");
+
+        console.log("✅ User logged out, localStorage cleared.");
+
+        // Redirect to the login page after clearing
+        window.location.href = event.target.getAttribute("href");
+      }
+
 
       // Submit form
       document.getElementById("book-submit").addEventListener("click", async function () {
